@@ -1,6 +1,3 @@
-
-
-
 gateway port = 3000
 auth port = 3001
 event = 3002 
