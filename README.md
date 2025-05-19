@@ -10,8 +10,40 @@
 - 관계형 데이터베이스만 다뤘었기에, 각 테이블간 조인과 프로시져를 사용하지 않고,<br/> 어떻게 데이터를 원하는대로 뽑아내고, 저장할 수 있을 것 인가? 에 대해 걱정이 앞섰습니다.<br/>
 하지만, 제 아는 지식을 토대로 먼저 RDBMS처럼 DB를 설계하고 들어올 데이터를 생각하며 구성하였습니다.<br/>
 그로인해, 스키마 설계 자체가 RDBMS의 모습이 많이 보이는듯 합니다.<br/>
-NoSQL만의 장단점이 부각 되는 프로젝트였다고 생각합니다.<br/>
+NoSQL의 장단점이 부각 되는 프로젝트였다고 생각합니다. <br/>
 ---
+# API 설계 및 데이터
+해당 순서대로 진행하면 좋을 듯 싶습니다.<br/>
+필수로 넣어야 할 데이터도 존재합니다.<br/>
+
+BaseURL : http://localhost:3000
+1. 회원가입
+   /auth/register		(post)	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## DB설계
 해당 설계는 먼저 RDBMS 기준으로 조인과 프로시저의 기능을 생각하며 작성하였습니다.
 
@@ -92,6 +124,15 @@ UQ 테이블이란?<br/>
 이벤트 테이블의 E_ID<br/>
 보상테이블의 RW_ID<br/>
 를 param값으로 받아 데이터가 insert되게 됩니다.<br/>
+
+
+### 아래부터는 좀 더 시인성을 높히기위하여 제가 작성했던 내용을 캡쳐하여 첨부하겠습니다
+
+![Image](https://github.com/user-attachments/assets/e863b99e-c656-45c6-a920-f9d624654ef5)
+![Image](https://github.com/user-attachments/assets/f8d9911a-e9f8-48ae-b69c-296de7620de4)
+![image](https://github.com/user-attachments/assets/c4ac8182-a278-4dac-b4d7-d4856190a251)
+![image](https://github.com/user-attachments/assets/113cb844-6c95-430d-8872-799e492761b0)
+
 
 ---
 이벤트 설계
