@@ -33,7 +33,7 @@
 - 해당 순서대로 진행하면 좋을 듯 싶습니다.<br/>
 필수로 넣어야 할 데이터도 존재합니다.<br/>
 
-- BaseURL : http://localhost:3000/
+- BaseURL : http://localhost:3000
 1. 회원가입
 - /auth/register		(POST) </br>
       - 입력데이터 : </br>
