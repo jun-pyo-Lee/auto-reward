@@ -80,7 +80,7 @@ export class GatewayController {
 
   // 전체 유저 조회
   @Get('auth/user-list-all')
-  @Public()
+  @Roles('Admin', 'Operator')
   proxyGetListAll(): Observable<any> {
     console.log(`유저조회 진입 !! 입력데이터`)
     const url = `${process.env.AUTH_URL}/auth/user-list-all`;
